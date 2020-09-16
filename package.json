@@ -1,0 +1,13 @@
+{
+    "name": "MafiaBot",
+    "version": "0.0.1",
+    "description": "Hide and Seek Real Time Mafia Bot",
+    "main": "mafia.js",
+    "author": "Sandwich",
+    "dependencies": {
+        "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+        "discord.js": "^12.2.0",
+        "fs": "0.0.1-security",
+        "winston": "^3.2.1"
+    }
+}

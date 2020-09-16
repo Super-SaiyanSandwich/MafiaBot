@@ -1,0 +1,356 @@
+{
+    "number_of_players": 12,
+    "number_dead": 3,
+    "number_alive": 9,
+
+    "player_data":
+    {
+        "145939201303511041":
+          {
+            "status": 1,
+            "role": "vibe_checker",
+            "name": "David",
+            "emoji": "✡️"
+          },
+        "303262042414907393":
+          {
+            "status": 0,
+            "role": "vigilante",
+            "name": "Elliot",
+            "emoji": "💔"
+          }
+    },
+    "role_list":
+    {
+      "doctor":
+        {
+          "active": 1,
+          "unique": 0,
+          "team": 0,
+          "name": "Doctor",
+          "description": "Saves someone from one death."
+        },
+      "vibe_checker":
+        {
+          "active": 1,
+          "unique": 0,
+          "team": 0,
+          "name": "Vibe Checker",
+          "description": "Learns someone’s role. Can say one word upon death. A recruited shows as suspicious and as a mafia version of their role."
+        },
+      "vigilante":
+        {
+          "active": 1,
+          "unique": 0,
+          "team": 0,
+          "name": "Vigilante",
+          "description": "Can kill in the night. If they kill a villager, they die of guilt"
+        },
+      "bodyguard":
+        {
+          "active": 1,
+          "unique": 0,
+          "team": 0,
+          "name": "Bodyguard",
+          "description": "Protect someone from death at the cost of your own, killing the attacker(s). Can protect themselves without dying twice, still killing attackers."
+        },
+      "wally":
+        {
+          "active": 1,
+          "unique": 0,
+          "team": 0,
+          "name": "Wally",
+          "description": "You can hide on three nights, and people who try to use abilities on you will fail, they can’t find you! Lookout watching you figures out who you are exactly. Optician skips Wally in the alphabetical order **always**."
+        },
+      "optician":
+        {
+          "active": 1,
+          "unique": 0,
+          "team": 0,
+          "name": "Optician",
+          "description": "Choose someone. If they use an ability on anyone tonight, they will miss and aim instead at someone alphabetically following them who is still alive."
+        },
+      "hypnotist":
+        {
+          "active": 1,
+          "unique": 0,
+          "team": 0,
+          "name": "Hypnotist",
+          "description": "Choose a person, and then a second person. The first person must target the other with everything they possibly can that evening. They do not know they were hypnotised."
+        },
+      "lookout":
+        {
+          "active": 1,
+          "unique": 0,
+          "team": 0,
+          "name": "Lookout",
+          "description": "Choose someone, and learn everyone who visits them, and who is visited by them."
+        },
+      "transporter":
+        {
+          "active": 1,
+          "unique": 0,
+          "team": 0,
+          "name": "Transporter",
+          "description": "Choose two people, A and B. People who wanted to visit A visit B, and people who wanted to visit B visit A."
+        },
+      "fortune_teller":
+        {
+          "active": 1,
+          "unique": 0,
+          "team": 0,
+          "name": "Fortune Teller",
+          "description": "Choose a role, and learn who it has targeted this night, and if it is in the game. If there are multiple of that role, you learn randomly who one of them targeted this night. Can cure a Bad Omen."
+        },
+      "priest":
+        {
+          "active": 1,
+          "unique": 0,
+          "team": 0,
+          "name": "Priest",
+          "description": "Pray to receive three pieces of information. Two will be lies, one will be true. You can pray every night."
+        },
+      "ambassador":
+        {
+          "active": 1,
+          "unique": 0,
+          "team": 0,
+          "name": "Ambassador",
+          "description": "Uses a different, random town role each night, out of those in this game."
+        },
+      "spook":
+        {
+          "active": 1,
+          "unique": 0,
+          "team": 0,
+          "name": "Spook",
+          "description": "Choose a dead person. They perform their role once more from beyond the grave using your body. You are told any results and affected by them, etc. You can do this once per dead, three times in the game."
+        },
+      "vampire_hunter":
+        {
+          "active": 0,
+          "unique": 0,
+          "team": 0,
+          "name": "Vampire Hunter",
+          "description": "Choose someone. If they are a vampire, you kill them. If they’re visited by a vampire, you kill them."
+        },
+      "channeller":
+        {
+          "active": 0,
+          "unique": 0,
+          "team": 0,
+          "name": "Channeler",
+          "description": "Choose a dead person. They perform their role once more from beyond the grave using your body. You are told any results and affected by them, etc."
+        },
+      "paranormal_investigator":
+        {
+          "active": 0,
+          "unique": 1,
+          "team": 0,
+          "name": "Paranormal Investigator",
+          "description": "Choose someone. You know everything related to Outsiders that happens around them that night. You find out if they are an Outsider."
+        },
+      "occultist":
+        {
+          "active": 0,
+          "unique": 1,
+          "team": 0,
+          "name": "Occultist",
+          "description": "Place a Bad Omen on an outsider, or if they are anything else, the Omen is placed on you. Be sure of who you are targeting, you may not want to go every night!"
+        
+        },
+      
+
+      "janitor":
+        {
+          "active": 1,
+          "unique": 0,
+          "team": 1,
+          "name": "Janitor",
+          "description": "Choose someone, if that person dies then their role is NOT revealed. Can be used thrice."
+        },
+      "godfather":
+        {
+          "active": 1,
+          "unique": 1,
+          "team": 1,
+          "name": "Godfather",
+          "description": "Has the final say, and gets to use the Vibe Checker ability. Sends a lower mafia to kill, randomly out of other mafia."
+        },      
+      "demolitionist":
+        {
+          "active": 1,
+          "unique": 0,
+          "team": 1,
+          "name": "Demolitionist",
+          "description": "Once, choose someone, and plant a bomb on them. The first night after this one that someone visits them, the bomb detonates and they both die. This also makes their house suspicious to the sheriff."
+        },
+      "recruitment_officer":
+        {
+          "active": 1,
+          "unique": 0,
+          "team": 1,
+          "name": "Recruitment Officer",
+          "description": "Choose a player on the first turn. If you die to lynching, they become mafia in addition to their other role."
+        },
+      "blackmailer":
+        {
+          "active": 1,
+          "unique": 0,
+          "team": 1,
+          "name": "Blackmailer",
+          "description": "Tell someone who to target tomorrow night. They get the message anonymously. If they do not follow your orders, they die. Can be done once."
+        },
+      "deceptor":
+        {
+          "active": 1,
+          "unique": 0,
+          "team": 1,
+          "name": "Deceptor",
+          "description": "Choose someone, they will receive a misleading message about what happened in the night if applicable."
+        },
+      "grave_robber":
+        {
+          "active": 1,
+          "unique": 0,
+          "team": 1,
+          "name": "Grave Robber",
+          "description": "At night, choose someone who is dead. Being investigated, you’ll show up as them. You learn every night-time message they ever received. Can do this thrice."
+        },
+      "wire_tapper":
+        {
+          "active": 0,
+          "unique": 0,
+          "team": 1,
+          "name": "Wire Tapper",
+          "description": "Choose someone. You see one of the messages they get that night, at random."
+        },
+
+
+
+      "jester":
+        {
+          "active": 1,
+          "unique": 0,
+          "team": 2,
+          "name": "Jester",
+          "description": "If you are voted off, you win. Take two someones down with you during the following night."
+        },
+      "chef":
+        {
+          "active": 1,
+          "unique": 0,
+          "team": 2,
+          "name": "CHEF",
+          "description": "Give someone a delicious meal which makes their role more powerful the next night, at which point they eat it. Let 4 people eat your meals to win. Meals eaten are announced."
+        },
+      "amnesiac":
+        {
+          "active": 1,
+          "unique": 0,
+          "team": 2,
+          "name": "Amnesiac",
+          "description": "Can choose someone who has died, and become their role. Remembering another amnesiac is very cool, and gives you +200 points."
+        },
+      "stalker":
+        {
+          "active": 1,
+          "unique": 0,
+          "team": 2,
+          "name": "Stalker",
+          "description": "You are told someone on turn 1. You must make sure they are LYNCHED, and not killed in the night. If they are lynched, you have won already! Do whatever you like! If they die otherwise, you become a jester. The target could be outsider, town, or neutral."
+        },
+      "guardian_angel":
+        {
+          "active": 1,
+          "unique": 0,
+          "team": 2,
+          "name": "Guardian Angel",
+          "description": "Protect a given target at all costs. On three nights, you can prevent them from dying. If they die, you die. If they are alive at the end, win or not, you win. They can win with you alive if their win condition needs other roles dead normally."
+        },
+      "serial_killer":
+        {
+          "active": 1,
+          "unique": 0,
+          "team": 2,
+          "name": "Serial Killer",
+          "description": "Choose someone to kill each night. Everyone must be dead. Wins if left with 1 other person."
+        },
+      "vampire":
+        {
+          "active": 0,
+          "unique": 0,
+          "team": 2,
+          "name": "Vampire",
+          "description": "Choose someone, and bite them. They become a vampire instead of their old role. If they are mafia they die. If you are the latest vampire, after one night you may bite a new ‘pire. Vampires have a group chat."
+        },
+      "prophet":
+        {
+          "active": 0,
+          "unique": 0,
+          "team": 2,
+          "name": "Prophet",
+          "description": "Choose a person and a turn number N1. You can also transport once, save someone once, and kill someone once. If the person you chose wins on the turn you chose, they don’t, and you win instead."
+        },
+        
+
+
+        
+      "pied_piper":
+        {
+          "active": 0,
+          "unique": 0,
+          "team": 3,
+          "name": "Pied Piper",
+          "description": "On one night only, choose as many people as you like. They must ALL target you with their abilities as the first choice, and you neutralise instant-killing roles that night. If someone submits references to multiple people, the second submission is the second person."
+        },
+      "bad_omen":
+        {
+          "active": 1,
+          "unique": 0,
+          "team": 3,
+          "name": "Bad Omen",
+          "description": "Choose someone. That person learns they are marked for death, and will live till the end of the next night. If you choose the fortune teller, you will also die. Can be healed by doctor, and fortune teller guessing the role, but not protected by bodyguard. If you change your mind, visit them again to heal them. "
+        },
+      "cultist":
+        {
+          "active": 1,
+          "unique": 0,
+          "team": 3,
+          "name": "Cultist",
+          "description": "Choose two people. If either is an outsider, you add them to an outsiders-only group chat. If you get every single outsider who is alive, then can get two kill. If you recruit outsiders, they can then only win if they’re in your cult. Other outsiders win as normal. You only win with outsider victory."
+        },
+      "alien":
+        {
+          "active": 1,
+          "unique": 0,
+          "team": 3,
+          "name": "Alien",
+          "description": "Immune to all abilities except mafia killing, Sheriff investigation, the Witch’s curse and Cultist’s Recruiting. This includes Doctor, Bodyguard, Serial Killer, etc.. Detective yields a random result. They find out which roles attempted to visit."
+        },
+      "doppelganger":
+        {
+          "active": 1,
+          "unique": 0,
+          "team": 3,
+          "name": "Doppelgänger",
+          "description": "Choose someone, become their role. You can always win with the outsider victory condition, even if you become another role."
+        },
+      "weeping_angel":
+        {
+          "active": 1,
+          "unique": 0,
+          "team": 3,
+          "name": "Weeping Angel",
+          "description": "If no one visits you, AND no-one voted for you in the day, you get to kill someone during the night. No kill N1."
+        },
+      "old_god":
+        {
+          "active": 1,
+          "unique": 0,
+          "team": 3,
+          "name": "Old God",
+          "description": "Choose two people, and they go mad! Person A’s ability is used by Person B on whoever B targets. If B would require a second target, that is you. If they do not have a target, nothing happens. Person B’s ability is also used by person A. If either targets nobody, the other does nothing."
+        }
+    }
+}
