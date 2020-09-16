@@ -14,7 +14,8 @@ let all_role_pages = []
 
 let response = "";
 
-const TOKEN = 'NzA0NjgyNTc4OTIxMjU5MTc4.XqhyJQ.LkfPGSB8_3ObzxDHQEcvQW-31EI';
+let rawAuth = fs.readFileSync('auth.json');
+const TOKEN = JSON.parse(rawAuth)["token"];
 let nameCollector;
 const PREFIX = "m!";
 
